@@ -12,10 +12,11 @@ This repository contains all the Labs done in the course Laboratório de Computa
 ## Authors
 
 * **Gonçalo Marantes** - [Marantesss](https://github.com/Marantesss)
+* **Helena Ferreira** - HelenaHF
 
 ## License
 
-This project is not licensed under any license
+This project is not licensed under any license and is free to be copied or used
 
 ## Acknowledgments
 
