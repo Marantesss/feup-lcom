@@ -14,10 +14,40 @@ This repository contains all the Labs done in the course Laboratório de Computa
 * **Gonçalo Marantes** - [Marantesss](https://github.com/Marantesss)
 * **Helena Ferreira** - HelenaHF
 
-## License
+Lab 2 - Timer
+----------
+> Grade: ?/100
 
-This project is not licensed under any license and is free to be copied or used
+Lab 3 - Keyboard
+----------
+> Grade: ?/100
 
-## Acknowledgments
+Lab 4 - Mouse
+----------
+> Grade: ?/100
 
-* Big thank you to professor Nuno Paulino for all the help during the TP classes
+Lab 5 - Graphics (VBE)
+----------
+> Grade: ?/100
+
+Project
+----------
+
+**Minix Force** <br>
+> Grade: ?/20 <br>
+
+**Screenshots** <br> <br>
+<img src="https://github.com/Marantesss/feup-lcom/blob/master/proj/doc/Images/Main_Menu.png" width="500"><br>
+**Fig. 1: Main menu** <br><br>
+
+<img src="https://github.com/Marantesss/feup-lcom/blob/master/proj/doc/Images/Help_Menu.png" width="500"><br>
+**Fig. 2: Help menu** <br><br>
+
+<img src="https://github.com/Marantesss/feup-lcom/blob/master/proj/doc/Images/In-game.png" width="500"><br>
+**Fig. 3: Game** <br><br>
+
+<img src="https://github.com/Marantesss/feup-lcom/blob/master/proj/doc/Images/In-game_paused.png" width="500"><br>
+**Fig. 4: Game Paused** <br><br>
+
+<img src="https://github.com/Marantesss/feup-lcom/blob/master/proj/doc/Images/Score_Menu.png" width="500"><br>
+**Fig. 5: Score/Game Over menu**
