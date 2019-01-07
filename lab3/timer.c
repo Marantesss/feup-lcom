@@ -7,7 +7,6 @@
 
 unsigned int counter = 0; // Initializing counter to 0
 int hook_id = TIMER0_IRQ; //hook_id = 0
-
 int (timer_set_frequency)(uint8_t timer, uint32_t freq) {
   // The maximum value of a 16 bit number is 65535, so, because (freq=TIMER_IRQ/div), freq needs to be higher than 19
   if (freq < 19)

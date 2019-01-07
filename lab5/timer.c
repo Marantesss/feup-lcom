@@ -6,13 +6,14 @@
 #include "i8254.h"
 
 unsigned int counter = 0; // Initializing counter to 0
-int hook_id = TIMER0_IRQ; //hook_id = 0
+int hook_id = TIMER0_IRQ; // hook_id = 0
 
 int (timer_set_frequency)(uint8_t timer, uint32_t freq) {
   // The maximum value of a 16 bit number is 65535, so, because (freq=TIMER_IRQ/div), freq needs to be higher than 19
-  if (freq < 19)
+  if (freq < 19) {
     printf("ERROR! Frequency set too low!\n");
     return 1;
+  }
   // TIMER_FREQ = freq / div so...
   uint16_t div = (uint16_t) (TIMER_FREQ / freq);
 
@@ -38,7 +39,7 @@ int (timer_set_frequency)(uint8_t timer, uint32_t freq) {
     sys_outb(TIMER_1, lsb);
     sys_outb(TIMER_1, msb);
   }
-   else if (timer == 2) { // Timer 2
+  else if (timer == 2) { // Timer 2
     st = (uint8_t) ((st & 0x0f) | TIMER_LSB_MSB | TIMER_SEL2); // To not change the 4 LSBs (mask 0x0f = 0000 1111)
     sys_outb(TIMER_CTRL, st); // Sending the control word to program the timer
     // Programming the timer    
