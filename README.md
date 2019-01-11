@@ -12,7 +12,7 @@ This repository contains all the Labs done in the course Laboratório de Computa
 ## Authors
 
 * **Gonçalo Marantes** - [Marantesss](https://github.com/Marantesss)
-* **Helena Ferreira** - HelenaHF
+* **Helena Ferreira** - [MHelena45](https://github.com/MHelena45)
 
 Lab 2 - Timer
 ----------
